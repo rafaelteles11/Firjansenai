@@ -1,0 +1,40 @@
+body{
+    font-family: 'Trebuchet MS','Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #333;
+
+}
+h1{
+    text-decoration: underline;
+    font-style: italic;
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+
+}
+header{
+    background-color: cornflowerblue;
+    margin-left: 0;
+    border: 2px solid red;
+    padding-left: 15px;
+    text-align: center;
+
+}
+nav{
+    background-color: cornflowerblue;
+    border:solid 2px #f00;
+    border-style: inset;
+    width: 100%;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+}
+li{
+    margin: 0 50px ;
+    list-style: none;
+    width: 20%;
+    text-align: center;
+}
